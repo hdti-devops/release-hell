@@ -1,0 +1,33 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Define the Helm charts to be "inflated" (rendered into raw YAML)
+helmCharts:
+  - name: nginx-ingress
+    repo: oci://ghcr.io/nginx/charts/nginx-ingress
+    version: 2.4.4 # Specify the chart version
+    releaseName: nginx-ingress # A unique name for the Helm release
+    namespace: nginx-ingress # The namespace where resources will be deployed
+    valuesFile: ../../../charts/nginx-oci/values.yaml # Optional: Path to a local values file
+    includeCRDs: true
+
+# Optional: You can also define inline values directly
+#    valuesInline:
+#      controller.replicaCount: 2
+#      image.tag: "1.15"
+
+# Optional: Add local resources/patches to apply to the rendered chart
+# resources:
+#   - patches/deployment-patch.yaml
+#   - additional-service.yaml
+
+# Patches are applied after the chart is rendered
+patches:
+  - target:
+      kind: Deployment
+      name: nginx-ingress-controller
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/image
+        values: artifacts.myorgdomaindev.com/docker-hub-remote/nginx/nginx-ingress:5.0

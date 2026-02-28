@@ -6,6 +6,18 @@
     "charts/argocd": {
         "release-type": "helm",
         "package-name": "argocd"
+    },
+    ".": {
+      "release-type": "simple",
+      "package-name": "nginx-oci",
+      "version-file": "charts/nginx-oci/version.txt",
+      "include-paths": [
+        "charts/nginx-oci/**",
+        "oci-base/**/nginx-oci",
+        "oci-base/**/nginx-oci/**",
+        "clusters/**/nginx-oci",
+        "clusters/**/nginx-oci/**"
+      ]
     }
   }
 }

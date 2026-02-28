@@ -5,5 +5,5 @@ kind: Kustomization
 resources:
   - ../../../oci-base/dev/nginx-oci
 
-patches:
-  - path: ./patches/service.yaml
+# patches:
+#   - path: ./patches/service.yaml

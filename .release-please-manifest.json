@@ -1,3 +1,4 @@
 {
-    "charts/argocd": "1.0.0"
+    "charts/argocd": "1.0.0",
+    ".": "1.0.0"
 }

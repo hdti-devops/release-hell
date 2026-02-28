@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.0.0...nginx-oci-v1.0.1) (2026-02-28)
+
+
+### Bug Fixes
+
+* **nginx-oci:** remove dev patch ([#4](https://github.com/hdti-devops/release-hell/issues/4)) ([071be54](https://github.com/hdti-devops/release-hell/commit/071be54c79efd6c36221001161707b4da2f294da))
+
 ## 1.0.0 (2026-02-28)
 
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.4.0...nginx-oci-v1.5.0) (2026-03-01)
+
+
+### Features
+
+* **ocout:** adde env ([#29](https://github.com/hdti-devops/release-hell/issues/29)) ([d0ccc9f](https://github.com/hdti-devops/release-hell/commit/d0ccc9f68c4235a5016b511364bb03af2ededf58))
+* **ocout:** kustomization ([#28](https://github.com/hdti-devops/release-hell/issues/28)) ([02b3a35](https://github.com/hdti-devops/release-hell/commit/02b3a35476c694dde5ec97411b7f46b1aad34e06))
+* **ocout:** out ([#24](https://github.com/hdti-devops/release-hell/issues/24)) ([919c466](https://github.com/hdti-devops/release-hell/commit/919c4660056fdf8554d98a8c9bedbf3468858ad4))
+* **ocout:** package ([#26](https://github.com/hdti-devops/release-hell/issues/26)) ([40da494](https://github.com/hdti-devops/release-hell/commit/40da494fe666d9d9eb9eee3717f0c7f7876d76cf))
+
 ## [1.4.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.3.0...nginx-oci-v1.4.0) (2026-03-01)
 
 

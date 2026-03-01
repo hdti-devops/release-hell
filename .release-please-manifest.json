@@ -1,5 +1,6 @@
 {
     "charts/argocd": "1.1.0",
     ".": "1.3.0",
-    "charts/oci-new": "1.0.0"
+    "charts/oci-new": "1.0.0",
+    "charts/occ": "1.0.0"
 }

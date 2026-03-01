@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.3.0...nginx-oci-v1.4.0) (2026-03-01)
+
+
+### Features
+
+* **occ:** test path ([#22](https://github.com/hdti-devops/release-hell/issues/22)) ([cd6ad68](https://github.com/hdti-devops/release-hell/commit/cd6ad68e32edf399d100087b178dbc25644cd7fe))
+
 ## [1.3.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.2.0...nginx-oci-v1.3.0) (2026-03-01)
 
 

@@ -62,6 +62,8 @@
       "package-name": "ocout",
       "version-file": "version.txt",
       "include-paths": [
+        "../oci-base/dev/ocout/kustomization.yaml",
+        "oci-base/prod/ocout/kustomization.yaml",
         "oci-base/**/ocout/**",
         "clusters/**/ocout/**",
         "ocout/**"

@@ -59,7 +59,7 @@
     },
     "ocout": {
       "release-type": "simple",
-      "package-name": "nginx-oci",
+      "package-name": "ocout",
       "version-file": "version.txt",
       "include-paths": [
         "oci-base/**/ocout/**",

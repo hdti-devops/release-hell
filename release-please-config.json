@@ -24,9 +24,18 @@
       "package-name": "oci-new",
       "version-file": "version.txt",
       "include-paths": [
+        "charts/oci-new",
         "charts/oci-new/**",
+        "oci-base/**/oci-new",
+        "../oci-base/**/oci-new",
         "../../oci-base/**/oci-new",
+        "oci-base/**/oci-new/kustomization.yaml",
+        "../oci-base/**/oci-new/kustomization.yaml",
+        "../../oci-base/**/oci-new/kustomization.yaml",
         "../../oci-base/**/oci-new/**"
+      ],
+      "extra-files": [
+        "charts/oci-new/version.txt"
       ]
     }
   }

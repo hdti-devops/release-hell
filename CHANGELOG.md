@@ -6,6 +6,16 @@
 ### Features
 
 * **argocd:** cm config ([#8](https://github.com/hdti-devops/release-hell/issues/8)) ([e6bee1d](https://github.com/hdti-devops/release-hell/commit/e6bee1d7db65edc38cabb9f2706dc1f76c547b73))
+* **nginx-new:** kustomized dev qa ([#14](https://github.com/hdti-devops/release-hell/issues/14)) ([6b68c0f](https://github.com/hdti-devops/release-hell/commit/6b68c0f98c29554f76514ef8916de143a7154032))
+* **oci-new:** new test oci repo ([#11](https://github.com/hdti-devops/release-hell/issues/11)) ([fa22338](https://github.com/hdti-devops/release-hell/commit/fa22338ce93183093c6563aa611fa62542b354cd))
+* **oci-new:** test pr ([#17](https://github.com/hdti-devops/release-hell/issues/17)) ([fe4a923](https://github.com/hdti-devops/release-hell/commit/fe4a923c1cc32984dc178f733117ecf93b8e131a))
+
+## [1.2.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.1.0...nginx-oci-v1.2.0) (2026-03-01)
+
+
+### Features
+
+* **argocd:** cm config ([#8](https://github.com/hdti-devops/release-hell/issues/8)) ([e6bee1d](https://github.com/hdti-devops/release-hell/commit/e6bee1d7db65edc38cabb9f2706dc1f76c547b73))
 * **oci-new:** new test oci repo ([#11](https://github.com/hdti-devops/release-hell/issues/11)) ([fa22338](https://github.com/hdti-devops/release-hell/commit/fa22338ce93183093c6563aa611fa62542b354cd))
 
 ## [1.2.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.1.0...nginx-oci-v1.2.0) (2026-03-01)

@@ -22,7 +22,7 @@
     "charts/oci-new": {
       "release-type": "simple",
       "package-name": "oci-new",
-      "version-file": "version.txt",
+      "version-file": "nginx-oci/version.txt",
       "include-paths": [
         "charts/oci-new",
         "charts/oci-new/**",
@@ -36,6 +36,25 @@
       ],
       "extra-files": [
         "charts/oci-new/version.txt"
+      ]
+    },
+    "charts/occ": {
+      "release-type": "simple",
+      "package-name": "occ",
+      "version-file": "version.txt",
+      "include-paths": [
+        "charts/occ",
+        "charts/occ/**",
+        "oci-base/**/occ",
+        "../oci-base/**/occ",
+        "../../oci-base/**/occ",
+        "oci-base/**/occ/kustomization.yaml",
+        "../oci-base/**/occ/kustomization.yaml",
+        "../../oci-base/**/occ/kustomization.yaml",
+        "../../oci-base/**/occ/**"
+      ],
+      "extra-files": [
+        "charts/occ/version.txt"
       ]
     }
   }

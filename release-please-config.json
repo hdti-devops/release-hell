@@ -56,6 +56,16 @@
       "extra-files": [
         "charts/occ/version.txt"
       ]
+    },
+    "ocout": {
+      "release-type": "simple",
+      "package-name": "nginx-oci",
+      "version-file": "version.txt",
+      "include-paths": [
+        "oci-base/**/ocout/**",
+        "clusters/**/ocout/**",
+        "ocout/**"
+      ]
     }
   }
 }

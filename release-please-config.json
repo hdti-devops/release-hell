@@ -18,6 +18,16 @@
         "clusters/**/nginx-oci",
         "clusters/**/nginx-oci/**"
       ]
+    },
+    "charts/oci-new": {
+      "release-type": "simple",
+      "package-name": "oci-new",
+      "version-file": "version.txt",
+      "include-paths": [
+        "charts/oci-new/**",
+        "../../oci-base/**/oci-new",
+        "../../oci-base/**/oci-new/**"
+      ]
     }
   }
 }

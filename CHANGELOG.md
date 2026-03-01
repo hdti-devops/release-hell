@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.2.0...nginx-oci-v1.3.0) (2026-03-01)
+
+
+### Features
+
+* **nginx-new:** kustomized dev qa ([#14](https://github.com/hdti-devops/release-hell/issues/14)) ([6b68c0f](https://github.com/hdti-devops/release-hell/commit/6b68c0f98c29554f76514ef8916de143a7154032))
+* **occ:** new packed ([#18](https://github.com/hdti-devops/release-hell/issues/18)) ([ccf7f1c](https://github.com/hdti-devops/release-hell/commit/ccf7f1c06aa021c3659c8a4349bd0c4a1259c7da))
+* **oci-new:** test pr ([#17](https://github.com/hdti-devops/release-hell/issues/17)) ([fe4a923](https://github.com/hdti-devops/release-hell/commit/fe4a923c1cc32984dc178f733117ecf93b8e131a))
+
 ## [1.2.0](https://github.com/hdti-devops/release-hell/compare/nginx-oci-v1.1.0...nginx-oci-v1.2.0) (2026-03-01)
 
 
